@@ -16,7 +16,7 @@ window.addEventListener("load", () => {
 
 
 window.addEventListener("scroll", () => {
-  const scrollY = window.scrollY;
+  const {scrollY = window.scrollY} = window;
 
   let startScroll = 400;
   let endScroll = 1350;
